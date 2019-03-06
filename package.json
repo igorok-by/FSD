@@ -1,0 +1,26 @@
+{
+  "name": "fsd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorok-by/FSD.git"
+  },
+  "author": "Igor B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorok-by/FSD/issues"
+  },
+  "homepage": "https://github.com/igorok-by/FSD#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
